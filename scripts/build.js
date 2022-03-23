@@ -6,6 +6,7 @@ esbuild.build({
     ],
     bundle: true,
     format: 'cjs',
+    platform: 'node',
     sourcemap: true,
     outdir: './dist',
 })
