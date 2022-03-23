@@ -21,5 +21,8 @@
     "build": "yarn build:bundle && yarn build:dts",
     "format:check": "prettier --config ./prettier.config.json --c ./src/**/*.ts",
     "format:write": "yarn format:check --write"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
